@@ -25,7 +25,7 @@ module Wisepdf
     end
 
     def wkhtmltopdf=(value)
-      raise Wisepdf::NoExecutableError.new(value) if value.blank? || !File.exists?(value)
+      raise Wisepdf::NoExecutableError.new(value) if value.blank? || !File.exist?(value)
       @wkhtmltopdf = value
     end
 

@@ -29,8 +29,9 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'sqlite3'
   gem.add_development_dependency 'faker'
   gem.add_development_dependency 'capybara'
+  gem.add_development_dependency 'test-unit'
 
-  gem.add_development_dependency 'rails', '~> 3.2.13'
+  gem.add_development_dependency 'rails', '~> 5.1.4'
   gem.add_development_dependency 'coffee-rails'
 
   gem.add_development_dependency 'wkhtmltopdf-binary'
